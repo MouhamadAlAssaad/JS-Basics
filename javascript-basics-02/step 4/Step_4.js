@@ -10,4 +10,4 @@ document.querySelector("button").addEventListener("click",function reset() {
         city.value = null;
         return true
     }
-})
+}

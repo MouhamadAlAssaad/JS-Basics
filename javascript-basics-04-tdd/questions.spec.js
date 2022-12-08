@@ -171,7 +171,7 @@ describe("Arrays", () =>  {
     expect(modifiedLanguages).toEqual(['CSS', 'Javascript', 'PHP', 'Ruby', 'Python'])
   })
 
-  it('Removes the last element', () => {
+  it('arr.slice(0, -1); ', () => {
     const languages = ['CSS', 'Javascript', 'PHP', 'Ruby', 'Python']
     const modifiedLanguages = removeLast(languages)
     expect(modifiedLanguages).toEqual(['CSS', 'Javascript', 'PHP', 'Ruby'])
